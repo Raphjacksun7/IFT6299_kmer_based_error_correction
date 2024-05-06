@@ -9,7 +9,7 @@ This Python script corrects errors in DNA sequencing data by analyzing k-mer fre
 This tool aims to enhance the reliability of DNA sequencing data by reducing the frequency of erroneous k-mers. These corrections are crucial for improving the outcomes of downstream processes like genome assembly and SNP discovery.
 
 ## Algorithm
-The script uses the "Weighted Adjusted Nucleotide Base Selection for" method:
+The script use an "Weighted Adjusted Nucleotide Base Selection" method:
 1. **K-mer Counting**: Counts k-mers in the input FASTQ files using Jellyfish.
 2. **Frequency Analysis**: Identifies k-mers with frequencies below a defined threshold (i0), suggesting potential errors.
 3. **Error Correction**: For each potentially erroneous k-mer, the base with the lowest quality score is targeted for correction.
