@@ -5,11 +5,6 @@
 This Python script corrects errors in DNA sequencing data by analyzing k-mer frequencies. Using Jellyfish for efficient k-mer counting, the tool dynamically adjusts corrections based on computed frequencies and quality scores. This approach optimizes nucleotide base selection throughout the correction process to enhance data quality for downstream analysis.
 
 
-## Authors
-- Raphael AVvocegamou
-- M'hensa Vincent De Paul Bakpatina-Batako
-- Hervira Brenda Ngongang Kwandjang
-
 ## Purpose
 This tool aims to enhance the reliability of DNA sequencing data by reducing the frequency of erroneous k-mers. These corrections are crucial for improving the outcomes of downstream processes like genome assembly and SNP discovery.
 
