@@ -1,5 +1,5 @@
 
-# K-mer Based Error Correction Tool
+# K-mer Based Error Correction Tool using Q-learning approach
 
 ## Overview
 This Python script corrects errors in DNA sequencing data by analyzing k-mer frequencies. Using Jellyfish for efficient k-mer counting, the tool dynamically adjusts corrections based on computed frequencies and quality scores. This approach optimizes nucleotide base selection throughout the correction process to enhance data quality for downstream analysis.
